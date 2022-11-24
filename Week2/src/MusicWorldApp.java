@@ -5,7 +5,7 @@ public class MusicWorldApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		DecimalFormat dc = new DecimalFormat("#,###.");
+		//DecimalFormat dc = new DecimalFormat("#,###.");
 		String cdId = JOptionPane.showInputDialog(
 				"This program calculates the total cost of a CD order \nPlease enter that ID of the CD");
 		String cdTitle = JOptionPane.showInputDialog(

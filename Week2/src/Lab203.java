@@ -15,7 +15,7 @@ public class Lab203 {
 	      num /= 10;
 	      ++count;
 	    }
-	    System.out.println("Digit number of sum of said two integers:"+count);
+	    System.out.println("Digit number of sum of said two integers:\n"+count);
 	}
 
 }
