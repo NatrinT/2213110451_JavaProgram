@@ -1,4 +1,5 @@
+Date : 08-Dec-2022
 StudentID: 2213110451
 Fullname: Natrin Thongvichit
 AKA: NatrinT
-ClassDetail: : String Methods and Defined Methods
+ClassDetail: : User-Defined Method with String
