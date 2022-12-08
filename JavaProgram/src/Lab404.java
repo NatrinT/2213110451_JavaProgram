@@ -10,16 +10,17 @@ public class Lab404 {
 		char Txtchr;
 		String BacktoFront = "";
 		 for(int i=0;i<text.length();i++) {
-			 Txtchr = text.charAt(i);
-				BacktoFront = Txtchr+BacktoFront;
+		     Txtchr = text.charAt(i);
+			 BacktoFront = Txtchr+BacktoFront;
 		 }
-		 System.out.print(BacktoFront);
-		 if(BacktoFront==text) {
-			 System.out.print("It is palindrome");
+		 System.out.println(BacktoFront);
+		 System.out.println(text);
+		 if(text==BacktoFront) {
+			 System.out.println("It is palindrome");
 		 }
-		 else {
-			 System.out.print("It is not palindrome");
-		 }
+		 //else {
+			// System.out.print("It is not palindrome");
+		// }
 
 	}
 
