@@ -1,5 +1,5 @@
-Date : 08-Dec-2022
-StudentID: 2213110451
-Fullname: Natrin Thongvichit
-AKA: NatrinT
-ClassDetail: : User-Defined Method with String
+Date		: 15-Dec-2022
+StudentID	: 2213110451
+Fullname	: Natrin Thongvichit
+AKA		: NatrinT
+ClassDetail	: Array in Java
