@@ -15,11 +15,10 @@ public class Lab505 {
 		String StudentID = scn.next();
 		System.out.print("Enter Subject Id: ");
 		int SubjectID = scn.nextInt();
-		boolean chk = isLength(StudentID,SubjectID);
-		while(chk==false) {
+		while(isLength(StudentID,SubjectID)==false) {
 			System.out.print("Enter Student Id: ");
 			StudentID = scn.next();
-			System.out.println("Enter Subject Id: ");
+			System.out.print("Enter Subject Id: ");
 			SubjectID = scn.nextInt();
 		}
 		displayData(isITStudent(StudentID),isITSubject(SubjectID),StudentID);
@@ -45,9 +44,6 @@ public class Lab505 {
 	
 	public static void displayData(boolean ITStu,boolean ITSub,String StudentID) {
 		System.out.println();
-		String empty="";
-		//if(ITStu!=true) empty = "not ";
-		//else if(ITSub!=true) empty = "not ";
 		System.out.println("Student id: "+StudentID+" is "+ ((ITStu!=true)?"not ":"") +
 				"1st year student in IT\n"+((ITSub!=true)?"not ":"")+"Enroll in courses for Year 1");
 	}
