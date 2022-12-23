@@ -19,7 +19,7 @@ public class Product {
 	public int getUnit() {
 		return unit;
 	}
-
+ 
 	public void setPrice(double PRICE) { 
 		price = PRICE;
 	}
