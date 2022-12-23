@@ -20,7 +20,7 @@ public class Product {
 		return unit;
 	}
 
-	public void setPrice(double PRICE) {
+	public void setPrice(double PRICE) { 
 		price = PRICE;
 	}
 
