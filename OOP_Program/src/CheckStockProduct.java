@@ -10,7 +10,7 @@ public class CheckStockProduct {
 		int number = sc.nextInt();
 		System.out.println();
 		Product[] productList = new Product[number];
-		for (int i = 0; i < productList.length; i++) {
+		for (int i = 0; i < productList.length; i++) { 
 			productList[i] = new Product();
 			System.out.print("Input product Id   : ");
 			productList[i].setId(sc.next());

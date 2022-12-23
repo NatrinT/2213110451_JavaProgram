@@ -31,4 +31,10 @@ public class Product {
 	public double calculate() {
 		return price*unit;
 	}
+	
+	public String check(int product) {
+		if(product<5) return "low";
+		else if (product>=5&&product<=50) return "normal";
+		else return "high";
+	}
 }
