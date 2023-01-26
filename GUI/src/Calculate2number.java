@@ -151,10 +151,10 @@ public class Calculate2number extends JFrame {
 					if(chckbxShowDialog.isSelected()) JOptionPane.showMessageDialog(null, "Result is : "+frmnum.format(sum));
 
 					lblResult.setText(frmnum.format(sum));
-					if (operator.equals("None choose your option"))
+					/*if (operator.equals("None choose your option"))
 						lblResult.setText("Please choose operator");
 					if(!radiobtn1Digit.isSelected()&&!radiobtn2Digit.isSelected())
-						lblResult.setText("Please choose digit");
+						lblResult.setText("Please choose digit");*/
 				}
 				
 			}
