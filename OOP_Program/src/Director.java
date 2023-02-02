@@ -21,7 +21,7 @@ public class Director {
 		return this.email;
 	}
 	public String getGenderName() {
-		return gender=='m'?"Male":gender=='f'?"Female":null;
+		return gender=='m'||gender=='M'?"Male":gender=='f'||gender=='F'?"Female":null;
 	}
 	public String toString() {
 		return this.getName()+" ("+this.getEmail()+";"+this.getGenderName()+")";
