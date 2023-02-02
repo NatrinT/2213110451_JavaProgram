@@ -33,7 +33,7 @@ public class Invoice {
 	public int getCustomerID() {
 		return customer.getID();
 	}
-	
+	 
 	public String getCustomerName() {
 		return customer.getName();
 	}

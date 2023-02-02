@@ -13,7 +13,7 @@ public class Customer {
 	public int getID() {
 		return this.id;
 	}
-	
+	 
 	public String getName() {
 		return name;
 	}
