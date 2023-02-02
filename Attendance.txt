@@ -1,5 +1,5 @@
-Date		: 26-Jan-2022
+Date		: 2-FEB-2022
 StudentID	: 2213110451
 Fullname	: Natrin Thongvichit
 AKA		: NatrinT
-ClassDetail	: Composition and Inheritanc
+ClassDetail	: Composition,Inheritance,and Polymorphism
