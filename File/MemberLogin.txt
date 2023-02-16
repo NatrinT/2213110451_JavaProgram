@@ -1,0 +1,5 @@
+Lee	Johnson	JL14525	j.lee@gmail.com
+Malee	Aroina	M1256	a.malee@gmail.com
+Sara	Saffron	145426	s.sara@gmail.com
+Leon	Scott	c25639	s.leon@gmail.com
+Claire	Redfieldl	25689	r.claire@gmail.com
