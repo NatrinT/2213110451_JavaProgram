@@ -13,14 +13,14 @@ public class FictionDemo1 {
 		System.out.print("Input author name  : ");
 		String authorName = scn.next();
 		book.setAuthorName(authorName);
-		while (!book.checkFormatName()) {
+		while (book.checkFormatName()) {
 			System.out.print("Input author name,again  : ");
 			authorName = scn.next();
 		}
 		System.out.print("Input author email  : ");
 		String authorEmail = scn.next();
 		book.setEmail(authorEmail);
-		while(!book.checkEmail()) {
+		while(book.checkEmail()) {
 			System.out.print("Input author email,again : ");
 			authorEmail = scn.next();
 		}

@@ -1,5 +1,5 @@
-Date		: 9-FEB-2022
+Date		: 16-FEB-2022
 StudentID	: 2213110451
 Fullname	: Natrin Thongvichit
 AKA		: NatrinT
-ClassDetail	: File and Exception Handling-
+ClassDetail	: File (Write / Read)
